@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.title-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #4a9991;
+    width: 100%;
+    height: 80px;
+    font-weight: bold;
+    word-spacing: 0.01em;
+    font-size: x-large;
+}
+    
+.Stats{
+    width: 100%;
+    height: 600px;
+    background-image:linear-gradient( rgba(0, 0, 0, 0.63),rgb(1, 1, 26) ),url(pic/covid.png);
+    background-size: cover;
+}
+.location{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 2rem;
+    color: rgb(33, 58, 141);
+
+}
+h2{
+    font-size: 2rem;
+    color: beige;
+}
+#date{
+    color: #91ccc6;
+    margin-top: 1rem;
+}
+
+form input,
+form button{
+    width: 200px;
+    height: 35px;
+    border: 1px solid #cccc;
+    padding: 0 5px;
+    outline: none;
+}
+
+form button{
+    width: 70px;
+}
+#name-country{
+    color: #8fccb5;
+    margin-top: 20px;
+}
+.content{
+    margin: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.content .box{
+    min-width: 270px;
+    margin: 10px;
+    border: 1px solid #cccc;
+    padding: 15px;
+    letter-spacing: 2px;
+}
+.content .box:hover{
+    background: #eee4;
+}
+.content .box p{
+    text-transform: uppercase;
+    opacity: 0.7;
+}
+.box-container{
+    display: flex;
+    font-size: medium;
+    color: aqua;
+    /* height: 20% ; */
+    /* width: 20% ;
+    border: 1px solid red; */
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+.title{
+    height: 2rem;
+    width: rem;
+    background-color: #0f574f;
+    font-size: larger;
+    justify-content: center;
+    display: flex;
+    border-radius: 10%;
+    font-weight: bold;
+    
+}
+.total-cases{
+   height: 11rem;
+   width: 10rem ;
+   border: 2px solid rgb(0, 255, 191);
+  border-radius: 25%;
+  
+}
+.total-cases .value{
+    font-size: 2rem;
+    font-weight: bold;
+    padding-left: 1rem;
+   
+ }
+ .total-cases .new-value{
+    font-size: 1.5rem ;
+     font-weight: bold;
+     padding-left: 1rem;
+     
+ }
+.recoverd{
+    height: 11rem;
+   width: 10rem ;
+   border: 2px solid rgb(0, 255, 191);
+   border-radius: 25%;
+  
+
+}
+.recoverd .value{
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgba(0, 255, 170, 0.856);
+    padding-left: 1rem;
+}
+.recoverd .new-value{
+    font-size: 1.5rem ;
+    color: rgb(156, 167, 162);
+    font-weight: bold;
+    padding-left: 1rem;
+}
+
+.deaths{
+    height: 11rem;
+   width: 10rem ;
+   border: 2px solid rgb(0, 255, 191);
+   border-radius: 25%;
+  
+
+}
+.deaths .value{
+    font-size: 2rem;
+    font-weight: bold;
+    color: red;
+    padding-left: 1rem;
+}
+.deaths .new-value{
+    font-size: 1.5rem ;
+    color: rgb(156, 167, 162);
+    font-weight: bold;
+    padding-left: 1rem;
+}
+.confirmed h3,
+.confirmed i{
+    color: crimson;
+}
+
+.recovered h3,
+.recovered i{
+    color: green;
+}
+::-webkit-scrollbar{
+    display: none;
+}
